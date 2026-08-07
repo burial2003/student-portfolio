@@ -8,3 +8,13 @@ body {
 nav a {
     margin-right: 1rem;
 }
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    body {
+        padding: 0.5rem;
+    }
+}
